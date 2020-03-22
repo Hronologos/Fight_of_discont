@@ -1,61 +1,71 @@
-body{
+body {
 	margin: 0;
 	padding: 0;
 }
+
 /*общие параметры для всех экранов*/
-.container1{
-	background:url(Фон_контейнера1.png);
+.container1 {
+	background: url(Фон_контейнера1.png);
 	background-position: 50% 50%;
 	display: flex;
-	justify-content:flex-start;
-	flex-direction:column;
-	align-items:center;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: center;
 }
-.page1{
-	justify-content:flex-start;
-	flex-direction:column;
-	align-items:center;
+
+.page1 {
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: center;
 }
-.header1{
+
+.header1 {
 	display: flex;
 	align-items: center;
 }
-.logo{
+
+.logo {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-.row1 a{
+
+.row1 a {
 	font-size: 20px;
 	font-family: FANTASY;
 	text-decoration: none;
 	color: #000000;
 }
-.row1 .textmenu:hover{
+
+.row1 .textmenu:hover {
 	transition: .15s;
 	color: #d60505;
 }
+
 /*новый блок container1*/
-.agitation{
-	display: flex;	
-	justify-content:flex-start;
-	flex-direction:column;
-	align-items:center;
+.agitation {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: center;
 }
-.become_a_member{
+
+.become_a_member {
 	display: flex;
 	flex-direction: column;
-	align-items:center;
-	justify-content:flex-start;
+	align-items: center;
+	justify-content: flex-start;
 	background: url(Много_треугольничков.png) no-repeat;
 	background-position: 50% 50%;
 }
-.BAM_block{
+
+.BAM_block {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-.BAM_TXT{
+
+.BAM_TXT {
 	background-color: white;
 	font-family: ARIAL BLACK;
 	border-radius: 1px;
@@ -63,25 +73,29 @@ body{
 	justify-content: center;
 	align-items: center;
 }
-.discont{
-	display: flex;
-	justify-content:center;
-	align-items: center;
-}
-.discont p{
-	color: #ffffff;
-	font-family: FRANKLIN GOTHIC MEDIUM;
-	display: flex;
-	justify-content:center;
-	align-items: center;
-	text-align: center;
-}
-.chelyabinsk_block{
+
+.discont {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-.chelyabinsk{
+
+.discont p {
+	color: #ffffff;
+	font-family: FRANKLIN GOTHIC MEDIUM;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.chelyabinsk_block {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.chelyabinsk {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -89,80 +103,96 @@ body{
 	font-family: arial;
 	background-color: #008aff;
 	color: #ffffff;
-  	-webkit-transform:  rotateZ(-2deg);
-  	-ms-transform:  	rotateZ(-2deg);
-  	transform: 		    rotateZ(-2deg);
+	-webkit-transform: rotateZ(-2deg);
+	-ms-transform: rotateZ(-2deg);
+	transform: rotateZ(-2deg);
 }
-.fight_of_discont{
+
+.fight_of_discont {
 	display: flex;
-	justify-content:flex-start;
-	flex-direction:column;
-	align-items:center;
-}
-.invited{
-	display: flex;
-	justify-content: center;
-	text-align: center;	
+	justify-content: flex-start;
+	flex-direction: column;
 	align-items: center;
 }
-.btn_block{
+
+.invited {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+.btn_block {
 	display: flex;
 	justify-content: center;
 }
-button[type="submit"]{
+
+button[type="submit"] {
 	width: 230px;
 	height: 60px;
 	border-radius: 10px;
 	letter-spacing: 1px;
 	font-size: 17px;
 }
-button[type="submit"]{
+
+button[type="submit"] {
 	background-color: #d60505;
 	border: none;
 	font-family: ARIAL;
-	color: #ffffff; 
+	color: #ffffff;
 	text-align: center;
 }
-button[type="submit"]:hover{
+
+button[type="submit"]:hover {
 	transition: .2s;
 	background-color: #ad0000;
 }
-button:active, button:focus {
-  	outline: none;
+
+button:active,
+button:focus {
+	outline: none;
 }
+
 button::-moz-focus-inner {
- 	 border: 0;
+	border: 0;
 }
+
 /****************************новый блок****************************/
-@media(max-width: 1169px){
-/****************************адаптация для маленьких экранов****************************/
-	.container1{
+@media(max-width: 1169px) {
+
+	/****************************адаптация для маленьких экранов****************************/
+	.container1 {
 		width: 100%;
 		height: 1000px;
 	}
-	.page1{
+
+	.page1 {
 		width: 100%;
 		height: 1000px;
 	}
-	.header1{
+
+	.header1 {
 		width: 100%;
 		height: 365px;
 		display: flex;
 		justify-content: space-between;
 		align-items: flex-start;
 	}
-	.logo{
+
+	.logo {
 		width: 40%;
 		height: 150px;
 	}
-	.mainrow1{
+
+	.mainrow1 {
 		width: 33%;
 		height: 365px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 	}
-	.row1 a{
+
+	.row1 a {
 		margin: 20px 0;
 		font-size: 20px;
 		font-family: Arial Black;
@@ -170,12 +200,14 @@ button::-moz-focus-inner {
 		color: #000000;
 		display: block;
 	}
-/*новый блок container1*/
-	.agitation{
+
+	/*новый блок container1*/
+	.agitation {
 		width: 100%;
 		height: 650px;
 	}
-	.become_a_member{
+
+	.become_a_member {
 		width: 100%;
 		height: 400px;
 		background-position: 50% 75%;
@@ -183,131 +215,158 @@ button::-moz-focus-inner {
 		align-items: center;
 		justify-content: center;
 	}
-	.BAM_block{
+
+	.BAM_block {
 		width: 100%;
 		height: 52px;
 	}
-	.BAM_TXT{
+
+	.BAM_TXT {
 		width: 344px;
 		height: 52px;
 		font-size: 23px;
 	}
-	.discont{
+
+	.discont {
 		width: 100%;
 		height: 180px;
 	}
-	.discont p{
+
+	.discont p {
 		width: 100%;
 		height: 112px;
 		font-size: 54px;
 		letter-spacing: 1px;
 	}
-	.chelyabinsk_block{
+
+	.chelyabinsk_block {
 		width: 100%;
 		height: 50px;
 	}
-	.chelyabinsk{
+
+	.chelyabinsk {
 		width: 205px;
 		height: 43px;
 		font-size: 23px;
 	}
-	.fight_of_discont{
+
+	.fight_of_discont {
 		width: 100%;
 		height: 220px;
 	}
-	.invited{
+
+	.invited {
 		width: 100%;
 		height: 130px;
 		line-height: 23px;
-		font-size: 20px;		
+		font-size: 20px;
 	}
-	.btn_block{
+
+	.btn_block {
 		height: 60px;
 		width: 100%;
 		margin-top: 30px;
 	}
 }
-@media(min-width: 1170px){
-/****************************адаптация для больши экранов****************************/
-	.container1{
+
+@media(min-width: 1170px) {
+
+	/****************************адаптация для больши экранов****************************/
+	.container1 {
 		width: 100%;
 		height: 860px;
 	}
-	.page1{
+
+	.page1 {
 		width: 1170px;
 		height: 860px;
 	}
-	.header1{
+
+	.header1 {
 		width: 100%;
 		height: 75px;
 	}
-	.logo{
+
+	.logo {
 		width: 170px;
-		height: 75px; 
+		height: 75px;
 	}
-	.mainrow1{
+
+	.mainrow1 {
 		width: 94.0170940170940170940170940%;
 		height: 75px;
 		display: flex;
 		justify-content: flex-end;
 		flex-direction: row;
 	}
-	.row1{
+
+	.row1 {
 		width: 100%;
 		height: 75px;
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
 	}
-/*новый блок container1*/
-	.agitation{
+
+	/*новый блок container1*/
+	.agitation {
 		width: 100%;
 		height: 775px;
 	}
-	.become_a_member{
+
+	.become_a_member {
 		width: 100%;
 		height: 370px;
 		padding-top: 80px;
 	}
-	.BAM_block{
+
+	.BAM_block {
 		width: 100%;
 		height: 52px;
 	}
-	.BAM_TXT{
+
+	.BAM_TXT {
 		width: 344px;
 		height: 52px;
 		font-size: 23px;
 	}
-	.discont{
+
+	.discont {
 		width: 100%;
 		height: 180px;
 	}
-	.discont p{
+
+	.discont p {
 		width: 100%;
 		height: 112px;
 		font-size: 68px;
 		letter-spacing: 1px;
 	}
-	.chelyabinsk_block{
+
+	.chelyabinsk_block {
 		width: 100%;
 		height: 50px;
 	}
-	.chelyabinsk{
+
+	.chelyabinsk {
 		height: 43px;
 		width: 205px;
 		font-size: 23px;
 	}
-	.fight_of_discont{
+
+	.fight_of_discont {
 		height: 330px;
 		width: 1170px;
 	}
-	.invited{
+
+	.invited {
 		height: 130px;
 		width: 1170px;
 		line-height: 26px;
-		font-size: 20px;		
+		font-size: 20px;
 	}
-	.btn_block{
+
+	.btn_block {
 		height: 200px;
 		width: 1170px;
 		padding-top: 3%;
